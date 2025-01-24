@@ -2,8 +2,10 @@
 
     int main() {
     printf("Desafio do Xadrez!\n");
-        int população;
-        float pib, área;
+        int população, pontos turísticos;
+        float área;
+        double pib;
+        char estado, cidade [20];
         
    
 
