@@ -3,7 +3,8 @@
     int main() {
     printf("Desafio do Xadrez!\n");
         int população;
-    
+        float pib, área;
+        
    
 
 
