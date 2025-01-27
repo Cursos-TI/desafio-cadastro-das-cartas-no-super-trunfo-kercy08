@@ -2,12 +2,15 @@
 
     int main() {
         printf("Desafio do Xadrez! \n");
-        int populaçao, pontos;
+        int populacao;
+        int pontos;
         float area, pib;
-        char estado, cidade, carta [20];
+        char estado;
+        char cidade; 
+        char carta [10];
         
         printf("Digite a população do estado: \n");
-        scanf("%d", &populaçao);
+        scanf("%d", &populacao);
 
         printf("Digite os pontos Turísticos: \n");
         scanf("%d", &pontos);
@@ -27,7 +30,7 @@
         printf("Código da carta: \n");
         scanf("%s", &carta);
 
-        printf("Carta: %s, Estado: %s, Cidade: %s, - População: %d, Pontos Turísticos: %d", populaçao, pontos);
+        printf("Carta: %s, Estado: %s, Cidade: %s, - População: %d\n, Pontos Turísticos: %d\n", populacao, pontos);
         printf("Metros: %d, - PIB %f", area, pib);
 
         return 0;
